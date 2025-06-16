@@ -1,0 +1,103 @@
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+   
+body {
+    background-color: hsl(47, 88%, 63%);
+    font-size: 1.6rem;
+    font-family: 'Figtree', sans-serif;
+}
+
+main {
+    height: 100dvh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    font-size: 1.935rem;
+    margin-bottom: 1.3rem;
+}
+
+h1:hover {
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+
+p {
+    font-weight: 500;
+}
+
+.card {
+    display: flex;
+    width: 30.8rem;
+    height: 41.8rem;
+    background-color: hsl(0, 0%, 100%);
+    border: 0.1rem solid black;
+    border-radius: 1.6rem;
+    box-shadow: 0.6rem 0.6rem 0 rgba(0, 0, 0, 1);
+    flex-direction: column;
+    padding: 0 1.9rem;
+}
+
+.attribution {
+    position: absolute;
+    bottom: 0.1rem;
+    font-size: 1.1rem;
+    text-align: center;
+    color: hsl(228, 45%, 44%);
+    bottom: 1.5rem;
+}
+
+.tag {
+    background-color: hsl(47, 88%, 63%);
+    font-size: 1.11rem;
+    font-weight: 800;
+    width: 6.5rem;
+    padding: 0.45rem 1rem;
+    border-radius: 0.25rem;
+    margin-bottom: 1.095rem;
+}
+
+.image {
+    height: 19.68rem;
+    width: 26.86rem;
+    margin-bottom: 0.071rem;
+}
+
+.avatar {
+    width: 2.5rem;
+    height: 2.65rem;
+    margin-right: 1rem;
+}
+
+.date {
+    color: hsl(0, 0%, 7%);
+    font-size: 1.124rem;
+    margin-bottom: 1.5rem;
+}
+
+.text {
+    color: hsl(0, 0%, 42%);
+    font-size: 1.285rem;
+    margin-bottom: 1.85rem;
+    line-height: 1.9rem;
+}
+
+.author {
+    font-size: 1.13rem;
+    font-weight: 800;
+}
