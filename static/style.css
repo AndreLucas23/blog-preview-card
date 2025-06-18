@@ -29,14 +29,14 @@ footer {
     margin-top: auto;
 }
 
-h1:hover {
-    color: hsl(47, 88%, 63%);
-    cursor: pointer;
-}
-
 h1 {
     font-size: 1.8rem;
     margin-bottom: 1.3rem;
+}
+
+h1:hover {
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
 }
 
 p {
@@ -106,8 +106,6 @@ p {
 
 @media (min-width: 50rem) {
     footer {
-        display: flex;
-        align-items: center;
         margin-top: 0;
     }
 
@@ -116,59 +114,15 @@ p {
         margin-bottom: 1.3rem;
     }
 
-    p {
-        font-weight: 500;
-    }
-
     .card {
-        display: flex;
         width: 30.8rem;
         height: 41.8rem;
-        background-color: hsl(0, 0%, 100%);
-        border: 0.1rem solid black;
-        border-radius: 1.6rem;
-        box-shadow: 0.6rem 0.6rem 0 rgba(0, 0, 0, 1);
-        flex-direction: column;
         padding: 0 1.9rem;
-    }
-
-    .tag {
-        background-color: hsl(47, 88%, 63%);
-        font-size: 1.11rem;
-        font-weight: 800;
-        width: 6.5rem;
-        padding: 0.45rem 1rem;
-        border-radius: 0.25rem;
-        margin-bottom: 1.095rem;
     }
 
     .illustration {
         height: 19.68rem;
         width: 26.86rem;
         margin-bottom: 0.071rem;
-    }
-
-    .avatar {
-        width: 2.5rem;
-        height: 2.65rem;
-        margin-right: 1rem;
-    }
-
-    .date {
-        color: hsl(0, 0%, 7%);
-        font-size: 1.124rem;
-        margin-bottom: 1.5rem;
-    }
-
-    .text {
-        color: hsl(0, 0%, 42%);
-        font-size: 1.285rem;
-        margin-bottom: 1.85rem;
-        line-height: 1.9rem;
-    }
-
-    .author {
-        font-size: 1.13rem;
-        font-weight: 800;
     }
 }
