@@ -6,8 +6,9 @@
 
 html {
     font-size: 62.5%;
+    overflow-x: hidden;
 }
-   
+
 body {
     background-color: hsl(47, 88%, 63%);
     font-size: 1.6rem;
@@ -25,16 +26,17 @@ main {
 footer {
     display: flex;
     align-items: center;
-}
-
-h1 {
-    font-size: 1.935rem;
-    margin-bottom: 1.3rem;
+    margin-top: auto;
 }
 
 h1:hover {
     color: hsl(47, 88%, 63%);
     cursor: pointer;
+}
+
+h1 {
+    font-size: 1.8rem;
+    margin-bottom: 1.3rem;
 }
 
 p {
@@ -43,14 +45,14 @@ p {
 
 .card {
     display: flex;
-    width: 30.8rem;
-    height: 41.8rem;
+    width: 26rem;
+    height: 38rem;
     background-color: hsl(0, 0%, 100%);
     border: 0.1rem solid black;
     border-radius: 1.6rem;
     box-shadow: 0.6rem 0.6rem 0 rgba(0, 0, 0, 1);
     flex-direction: column;
-    padding: 0 1.9rem;
+    padding: 1.7rem 1.9rem;
 }
 
 .attribution {
@@ -73,9 +75,9 @@ p {
 }
 
 .image {
-    height: 19.68rem;
-    width: 26.86rem;
-    margin-bottom: 0.071rem;
+    height: 14rem;
+    width: 22rem;
+    margin-bottom: 1.5rem;
 }
 
 .avatar {
@@ -100,4 +102,82 @@ p {
 .author {
     font-size: 1.13rem;
     font-weight: 800;
+}
+
+@media (min-width: 800px) {
+    footer {
+        display: flex;
+        align-items: center;
+        margin-top: 0;
+    }
+
+    h1 {
+        font-size: 1.935rem;
+        margin-bottom: 1.3rem;
+    }
+
+    p {
+        font-weight: 500;
+    }
+
+    .card {
+        display: flex;
+        width: 30.8rem;
+        height: 41.8rem;
+        background-color: hsl(0, 0%, 100%);
+        border: 0.1rem solid black;
+        border-radius: 1.6rem;
+        box-shadow: 0.6rem 0.6rem 0 rgba(0, 0, 0, 1);
+        flex-direction: column;
+        padding: 0 1.9rem;
+    }
+
+    .attribution {
+        position: absolute;
+        bottom: 0.1rem;
+        font-size: 1.1rem;
+        text-align: center;
+        color: hsl(228, 45%, 44%);
+        bottom: 1.5rem;
+    }
+
+    .tag {
+        background-color: hsl(47, 88%, 63%);
+        font-size: 1.11rem;
+        font-weight: 800;
+        width: 6.5rem;
+        padding: 0.45rem 1rem;
+        border-radius: 0.25rem;
+        margin-bottom: 1.095rem;
+    }
+
+    .image {
+        height: 19.68rem;
+        width: 26.86rem;
+        margin-bottom: 0.071rem;
+    }
+
+    .avatar {
+        width: 2.5rem;
+        height: 2.65rem;
+        margin-right: 1rem;
+    }
+
+    .date {
+        color: hsl(0, 0%, 7%);
+        font-size: 1.124rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .text {
+        color: hsl(0, 0%, 42%);
+        font-size: 1.285rem;
+        margin-bottom: 1.85rem;
+        line-height: 1.9rem;
+    }
+
+    .author {
+        font-size: 1.13rem;
+        font-weight: 800;
+    }
 }
